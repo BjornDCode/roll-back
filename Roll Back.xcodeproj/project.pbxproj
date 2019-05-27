@@ -14,6 +14,10 @@
 		A29C193E229C4C4D00E3904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29C193D229C4C4D00E3904F /* Assets.xcassets */; };
 		A29C1941229C4C4D00E3904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29C193F229C4C4D00E3904F /* LaunchScreen.storyboard */; };
 		A29C194C229C4C4D00E3904F /* Roll_BackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C194B229C4C4D00E3904F /* Roll_BackTests.swift */; };
+		A29C195E229C5AFC00E3904F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29C195D229C5AFC00E3904F /* Onboarding.storyboard */; };
+		A29C1961229C5DE100E3904F /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1960229C5DE100E3904F /* OnboardingPageViewController.swift */; };
+		A29C1963229C5E8600E3904F /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1962229C5E8600E3904F /* StepOneViewController.swift */; };
+		A29C1965229C5E9B00E3904F /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1964229C5E9B00E3904F /* StepTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		A29C1947229C4C4D00E3904F /* Roll BackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll BackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29C194B229C4C4D00E3904F /* Roll_BackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_BackTests.swift; sourceTree = "<group>"; };
 		A29C194D229C4C4D00E3904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29C195D229C5AFC00E3904F /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		A29C1960229C5DE100E3904F /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		A29C1962229C5E8600E3904F /* StepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		A29C1964229C5E9B00E3904F /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,7 @@
 		A29C1959229C4DD500E3904F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A29C195F229C5DC100E3904F /* Onboarding */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 		A29C195A229C4DED00E3904F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				A29C195D229C5AFC00E3904F /* Onboarding.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -153,6 +163,16 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A29C195F229C5DC100E3904F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A29C1960229C5DE100E3904F /* OnboardingPageViewController.swift */,
+				A29C1962229C5E8600E3904F /* StepOneViewController.swift */,
+				A29C1964229C5E9B00E3904F /* StepTwoViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +259,7 @@
 				A29C1941229C4C4D00E3904F /* LaunchScreen.storyboard in Resources */,
 				A29C193E229C4C4D00E3904F /* Assets.xcassets in Resources */,
 				A29C1939229C4C4C00E3904F /* Main.storyboard in Resources */,
+				A29C195E229C5AFC00E3904F /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29C1961229C5DE100E3904F /* OnboardingPageViewController.swift in Sources */,
+				A29C1963229C5E8600E3904F /* StepOneViewController.swift in Sources */,
 				A29C193C229C4C4C00E3904F /* Roll_Back.xcdatamodeld in Sources */,
 				A29C1936229C4C4C00E3904F /* ViewController.swift in Sources */,
 				A29C1934229C4C4C00E3904F /* AppDelegate.swift in Sources */,
+				A29C1965229C5E9B00E3904F /* StepTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
