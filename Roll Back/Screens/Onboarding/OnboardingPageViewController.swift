@@ -10,13 +10,9 @@ import UIKit
 
 class OnboardingPageViewController : UIPageViewController {
     
-    
     override func viewDidLoad() {
-        setViewControllers([getStepOne()], direction: .forward, animated: true, completion: nil)
-    }
-    
-    func getStepOne() -> StepOneViewController {
-        return storyboard?.instantiateViewController(withIdentifier: "StepOne") as! StepOneViewController
+        guard let firstStepViewController = storyboard?.instantiateViewController(withIdentifier: "StepOne") else { return }
+        setViewControllers([firstStepViewController], direction: .forward, animated: true, completion: nil)
     }
     
 }

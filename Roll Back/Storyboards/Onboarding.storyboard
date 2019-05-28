@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continue"/>
                                 <connections>
-                                    <segue destination="ncU-AA-3Sd" kind="show" id="XgN-gR-L0G"/>
+                                    <segue destination="ncU-AA-3Sd" kind="show" id="opp-4V-t6y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -74,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="Q4X-e2-ydr" kind="show" id="fej-dk-pgj"/>
+                                    <segue destination="Q4X-e2-ydr" kind="show" id="OgL-qr-htq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,6 +88,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fej-dk-pgj"/>
+        <segue reference="opp-4V-t6y"/>
+        <segue reference="OgL-qr-htq"/>
     </inferredMetricsTieBreakers>
 </document>
