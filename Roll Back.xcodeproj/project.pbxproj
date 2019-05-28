@@ -18,6 +18,11 @@
 		A29C1961229C5DE100E3904F /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1960229C5DE100E3904F /* OnboardingPageViewController.swift */; };
 		A29C1963229C5E8600E3904F /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1962229C5E8600E3904F /* StepOneViewController.swift */; };
 		A29C1965229C5E9B00E3904F /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1964229C5E9B00E3904F /* StepTwoViewController.swift */; };
+		A29C1967229D24A100E3904F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C1966229D24A100E3904F /* Constants.swift */; };
+		A29C196B229D526B00E3904F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29C1968229D526B00E3904F /* Poppins-Bold.ttf */; };
+		A29C196C229D526B00E3904F /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29C1969229D526B00E3904F /* Poppins-ExtraBold.ttf */; };
+		A29C196D229D526B00E3904F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29C196A229D526B00E3904F /* Poppins-Regular.ttf */; };
+		A29C196F229D5C0400E3904F /* RBTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C196E229D5C0400E3904F /* RBTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		A29C1960229C5DE100E3904F /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
 		A29C1962229C5E8600E3904F /* StepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
 		A29C1964229C5E9B00E3904F /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		A29C1966229D24A100E3904F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A29C1968229D526B00E3904F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A29C1969229D526B00E3904F /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A29C196A229D526B00E3904F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A29C196E229D5C0400E3904F /* RBTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 				A29C195C229C4EAD00E3904F /* Models */,
 				A29C195A229C4DED00E3904F /* Storyboards */,
 				A29C1959229C4DD500E3904F /* Screens */,
+				A29C1966229D24A100E3904F /* Constants.swift */,
 				A29C1935229C4C4C00E3904F /* ViewController.swift */,
 				A29C1933229C4C4C00E3904F /* AppDelegate.swift */,
 				A29C1937229C4C4C00E3904F /* Main.storyboard */,
@@ -117,6 +128,9 @@
 		A29C1956229C4D2500E3904F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				A29C1968229D526B00E3904F /* Poppins-Bold.ttf */,
+				A29C1969229D526B00E3904F /* Poppins-ExtraBold.ttf */,
+				A29C196A229D526B00E3904F /* Poppins-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -131,6 +145,7 @@
 		A29C1958229C4D9700E3904F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A29C196E229D5C0400E3904F /* RBTitle.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -258,7 +273,10 @@
 			files = (
 				A29C1941229C4C4D00E3904F /* LaunchScreen.storyboard in Resources */,
 				A29C193E229C4C4D00E3904F /* Assets.xcassets in Resources */,
+				A29C196D229D526B00E3904F /* Poppins-Regular.ttf in Resources */,
+				A29C196B229D526B00E3904F /* Poppins-Bold.ttf in Resources */,
 				A29C1939229C4C4C00E3904F /* Main.storyboard in Resources */,
+				A29C196C229D526B00E3904F /* Poppins-ExtraBold.ttf in Resources */,
 				A29C195E229C5AFC00E3904F /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +299,9 @@
 				A29C1963229C5E8600E3904F /* StepOneViewController.swift in Sources */,
 				A29C193C229C4C4C00E3904F /* Roll_Back.xcdatamodeld in Sources */,
 				A29C1936229C4C4C00E3904F /* ViewController.swift in Sources */,
+				A29C1967229D24A100E3904F /* Constants.swift in Sources */,
 				A29C1934229C4C4C00E3904F /* AppDelegate.swift in Sources */,
+				A29C196F229D5C0400E3904F /* RBTitle.swift in Sources */,
 				A29C1965229C5E9B00E3904F /* StepTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
